@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-+*vz!m$g$p4mon3muwas*03vwovyy_o@%nxxqik_^jh37n(--$
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'djangoangelmc.azurewebsites.net',
+    'djangoangelmc.azurewebsites.ne',
     'localhost',
     '127.0.0.1',
 ]
