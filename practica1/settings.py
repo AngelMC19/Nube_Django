@@ -31,7 +31,9 @@ ALLOWED_HOSTS = [
     '127.0.0.1',
 ]
 
-
+CSRF_TRUSTED_ORIGINS = [
+    'https://djangoangelmc.azurewebsites.net'
+]
 
 # Application definition
 
@@ -54,6 +56,8 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+
 
 ROOT_URLCONF = 'practica1.urls'
 
